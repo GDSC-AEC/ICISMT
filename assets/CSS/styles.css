@@ -393,17 +393,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0;
-  font-size: 56px;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 64px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
+  line-height: 40px;
+  color:gold;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: Georgia, sans-serif;
 }
 #hero h1 span {
-  color: #ffc451;
+  color:#ffc451;
+  margin: 0;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 40px;
+  font-family: "Poppins", sans-serif;
 }
-#hero h2 {
-  color: rgba(255, 255, 255, 0.9);
+#hero h3 {
+  color: cornsilk;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
