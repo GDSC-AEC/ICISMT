@@ -391,19 +391,22 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 74px;
   text-align: center;
 }
+.span_department{
+  color:#f7af23;
+}
 #hero h1 {
   margin: 0;
   font-size: 4rem;
   font-weight: 700;
   line-height: 40px;
-  color:gold;
-  /* font-family: "Poppins", sans-serif; */
-  font-family: Georgia, sans-serif;
+  /* color:gold; */
+  font-family: "Poppins", sans-serif;
+  /* font-family: Georgia, sans-serif; */
 }
 #hero h1 span {
   color:#ffc451;
   margin: 0;
-  font-size: 4rem;
+  /* font-size: 4rem; */
   font-weight: 700;
   line-height: 40px;
   font-family: "Poppins", sans-serif;
@@ -416,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
   height: 100%;
   text-align: center;
 }
