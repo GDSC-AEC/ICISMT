@@ -478,7 +478,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 section {
-  padding: 60px 0;
+  padding: 1px;
   overflow: hidden;
 }
 
@@ -487,14 +487,14 @@ section {
 }
 .section-title h2 {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   padding: 0;
-  line-height: 1px;
+  line-height: 1.6;
   margin: 0 0 5px 0;
-  letter-spacing: 2px;
+  letter-spacing: normal;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 .section-title h2::after {
   content: "";
@@ -1074,9 +1074,10 @@ section {
 .team .member .member-info {
   padding: 25px 15px;
 }
-.team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
+.team .member .member-info h3 {
+  font-weight: 450;
+  letter-spacing: normal;
+  /* margin: 0 0 15px; */
   font-size: 18px;
   color: #151515;
 }
