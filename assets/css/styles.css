@@ -235,6 +235,7 @@ h6 {
   color: #ffc451;
 }
 .navbar .dropdown ul {
+  text-decoration: none;
   display: block;
   position: absolute;
   left: 14px;
@@ -252,6 +253,7 @@ h6 {
   min-width: 200px;
 }
 .navbar .dropdown ul a {
+  text-decoration: none;
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
@@ -494,7 +496,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 .section-title h2 {
   font-size: 14px;
@@ -516,8 +518,6 @@ section {
   margin: 4px 10px;
 }
 .section-title p {
-  margin: 0;
-  margin: 0;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
