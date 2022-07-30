@@ -291,6 +291,14 @@ h6 {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+  .navbar {
+    position: fixed !important;
+  }
+  .hamburger_ {
+    display: flex;
+    width: 90vw;
+    justify-content: flex-end;
+  }
 }
 
 /**
