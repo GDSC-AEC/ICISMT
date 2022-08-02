@@ -1466,3 +1466,13 @@ img {
     line-height: 1.4rem;
   }
 }
+
+/* publications */
+.img_center {
+  display:inherit;
+  text-align: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+}
